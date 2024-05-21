@@ -1,0 +1,894 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar h2{
+    padding: 5px 5%;
+    font-size: 50px;
+}
+
+.navbar b{
+    color: rgb(59, 59, 197);
+}
+
+.nav-list ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.nav-a{
+    font-size: 25px;
+    padding: 0px 30px;
+}
+
+.nav-list ul li::after{
+    content: '';
+    background-color: white;
+    height: 2px;
+    display: block;
+    width: 0;
+    transition: 1s;
+}
+
+.nav-list ul li:hover::after{
+    width: 100%;
+}
+
+#log{
+    color: white;
+    background-color: rgb(59, 59, 197);
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.bg{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(../img/bg.web2.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    animation-name: image-changer2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+} 
+
+@keyframes image-changer2{
+    10%{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(../img/defense\ bg1.jpeg);
+    }
+    20%{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(../img/new\ bg2.jpg);
+    }
+}
+
+.container h2{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 40px;
+    color: rgb(59, 59, 197);
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(59, 59, 197);
+}
+
+.container-list{
+    display: flex;
+    gap: 20px;
+    padding: 0px 10%;
+}
+
+.container-list a{
+    color: black;
+}
+
+.container-list img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.cl img{
+    width: 250px;
+}
+
+.container-list div:first-child{
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px 10px 10px;
+    padding: 0px 0px 30px 0px;
+    background-color: rgb(247, 246, 246);
+}
+
+.container-list div:nth-child(2){
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px 10px 10px;
+    padding: 0px 0px 30px 0px; 
+    background-color: rgb(247, 246, 246);
+}
+
+.container-list div:nth-child(3){
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px 10px 10px;
+    padding: 0px 0px 30px 0px;
+    background-color: rgb(247, 246, 246);
+}
+
+.container-list div:last-child{
+    border: 2px solid whitesmoke;
+    border-radius: 30px 30px 10px 10px;
+    padding: 0px 0px 30px 0px;
+    background-color: rgb(247, 246, 246);
+}
+
+.TG1{
+    width: 90%;
+    margin: auto;
+}
+
+.content1 img{
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.content-Hd h1{
+    padding: 30px 0px 0px 5%;
+    font-size: 40px;
+    color: rgb(59, 59, 197);
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.content-Hd a{
+    text-decoration: none;
+    color: rgb(59, 59, 197);
+}
+
+.content1 h2{
+    font-size: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content1{
+    margin-bottom: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    padding: 0px 0px 30px;
+}
+
+.content-list img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px 10px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.content-list{
+    padding-right: 5%;
+}
+
+.list1{
+    margin-bottom: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    padding: 0px 0px 30px 0px;
+}
+
+.list2{
+    margin-bottom: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    padding: 0px 0px 30px 0px;
+}
+
+.content{
+    display: flex;
+    gap: 30px;
+    padding: 30px 5%;
+}
+
+.bg-list{
+    background-color: rgb(205, 203, 203);
+    width: 90%;
+    margin: auto;
+}
+
+.bg2{
+    background-image: url(../img/defense\ backg\ 3.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    margin: auto;
+    animation-name: image-changer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+@keyframes image-changer{
+    10%{
+        background-image: url(../img/defense\ backg\ 4.png);
+    }
+    20%{
+        background-image: url(../img/defense\ backg\ 5.jpg);
+    }
+}
+
+.bg-content2 p{
+    width: 150px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.bg-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.TG2{
+    width: 90%;
+    margin: auto;
+}
+
+.trend-list a{
+    text-decoration: none;
+    color: rgb(59, 59, 197);
+}
+
+.trend a{
+    color: black;
+}
+
+.trend-Hd{
+    display: flex;
+    gap: 40%;
+}
+
+.trend-Hd div:first-child{
+    text-align: left;
+    color: rgb(59, 59, 197);
+    font-size: 30px;
+    padding: 30px 5%;
+    text-decoration: underline;
+}
+
+.trend-Hd div:nth-child(2){
+    padding: 30px 7%;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#Hd1{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px 30px;
+    background-color: rgb(59, 59, 197);
+}
+
+#Hd2{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-style: italic;
+    padding: 10px 0px;
+    background-color: rgb(59, 59, 197);
+}
+
+#Hd2{
+    display: none;
+}
+
+.trend{
+    display: flex;
+    gap: 20px;
+    padding: 0px 5%;
+}
+
+.trend img{
+    width: 300px;
+    height: 30vh;
+}
+
+.trend h3{
+    margin-top: 10%;
+}
+
+.trend1 div:first-child{
+    margin-bottom: 50%;
+}
+
+.trend2 div:first-child{
+    margin-bottom: 50%;
+}
+
+.trend3 div:first-child{
+    margin-bottom: 50%;
+}
+
+.trend4{
+    padding-left: 10px;
+}
+
+.trend4 div:nth-child(2){
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.trend4 div:nth-child(3){
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.trend4 div:nth-child(4){
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.trend4 div:nth-child(5){
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.trend4 div:nth-child(6){
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.trend4 div:last-child{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+}
+
+.TG3{
+    width: 90%;
+    margin: auto;
+}
+
+.health h2{
+    padding: 30px 5%;
+    font-size: 40px;
+    color: rgb(59, 59, 197);
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.health a{
+    text-decoration: none;
+    color: rgb(59, 59, 197);
+}
+
+.health-list{
+    display: flex;
+    gap: 20px;
+    border: 3px solid rgb(59, 59, 197);
+    border-radius: 10px;
+    padding: 30px 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.health-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.health-list img{
+    width: 150px;
+    height: 30vh;
+    border-radius: 10px 20px 10px 20px;
+}
+
+.health-list h3{
+    padding: 30px 10%;
+}
+
+.health-list div:first-child{
+    display: flex;
+    border: 2px solid rgb(59, 59, 197);
+    border-radius: 10px 30px 20px 30px;
+    padding: 0px 0px 0px 30px;
+}
+
+.health-list div:nth-child(2){
+    display: flex;
+    border: 2px solid rgb(59, 59, 197);
+    border-radius: 10px 20px 20px 30px;
+    padding: 0px 0px 0px 30px;
+}
+
+.health-list div:nth-child(3){
+    display: flex;
+    border: 2px solid rgb(59, 59, 197);
+    border-radius: 10px 20px 20px 30px;
+    padding: 0px 0px 0px 30px;
+}
+
+.health-list div:last-child{
+    display: flex;
+    border: 2px solid rgb(59, 59, 197);
+    border-radius: 10px 20px 20px 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.sport-sec{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.sport h2{
+    padding: 30px 5%;
+    font-size: 40px;
+    color: rgb(59, 59, 197);
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.sport h2 a{
+    color: rgb(59, 59, 197);
+}
+
+.sport-sec a{
+    text-decoration: none;
+    color: black;
+}
+
+.sport1 img{
+    width: 350px;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.sport2 img{
+    width: 100%;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.sport3 img{
+    width: 300px;
+    height: 34vh;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.sport1 div:first-child{
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    padding: 0px 0px 15% 0px;
+}
+
+.sport1 div:nth-child(2){
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    padding: 0px 0px 20% 0px;
+}
+
+.sport2{
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+}
+
+.sport2 h3{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.sport2 p{
+    padding: 10px 20px;
+}
+
+.sport3 div:first-child{
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    padding: 0px 0px 25px 0px;
+}
+
+.sport3 div:nth-child(2){
+    border: 2px solid white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 243, 243);
+    padding: 0px 0px 25px 0px;
+}
+
+.sport3 h3{
+    margin-top: 10px;
+}
+
+.sport1 h3{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: rgb(59, 59, 197);
+    color: white;
+}
+
+.footer1{
+    display: flex;
+    gap: 40px;
+    padding: 50px 5%;
+}
+                                                      
+.footer2 h2{
+    font-size: 40px;
+}
+
+.footer p{
+    margin-bottom: 20px;
+}
+
+.footer3{
+    display: flex;
+    gap: 60px;
+    padding: 30px 5% 30px 10%;
+    font-size: 20px;
+}
+
+.footer3 h4:first-child{
+    margin-bottom: 40px;
+}
+
+.footer3 h4:nth-child(2){
+    margin-bottom: 40px;
+}
+
+.footer3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer4{
+    padding: 10px 0px;
+}
+
+.footer4 h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer4 h4:nth-child(2){
+    margin-bottom: 25px;
+}
+
+.footer4 h4:nth-child(3){
+    margin-bottom: 25px;
+}
+
+.icons{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 25px;
+}
+
+.icons-list i{
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(59, 59, 197);
+}
+
+.icons-list a{
+    padding: 10px;
+}
+
+.input input{
+    width: 500px;
+    outline: none;
+    padding: 10px 10px 10px 0px;
+    margin-bottom: 15px;
+}
+
+.input input::placeholder{
+    color: grey;
+}
+
+.input-field input{
+    width: 500px;
+    padding: 10px 50px;
+}
+
+.end{
+    text-align: center;
+}
+
+.checkbtn{
+    color: white;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .navbar{
+        display: block;
+        height: 10vh;
+        padding: 20px 30px;
+    }
+
+    .navbar h2{
+        font-size: 30px;
+        padding: 2px 35px;
+    }
+
+    .nav-list ul li{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #log{
+        background-color: black;
+    }
+
+    .checkbtn{
+        display: block;
+        float: right;
+        font-size: 20px;
+        padding: 5px 0px;
+    } 
+
+    .nav-list{
+        position: relative;
+        left: -200%;
+        width: 100%;
+        background-color: rgb(59, 59, 197);
+        transition: 1s;
+    }
+
+    #check:checked ~ .nav-list{
+        left: 0;
+    }
+
+    .nav-a{
+        position: absolute;
+        top: 37%;
+        left: -20px;
+    }
+
+    .nav-a i{
+        font-size: 20px;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+    }
+
+    .bg{
+        height: 40vh;
+    }
+
+    .container-list{
+        display: block;
+    }
+
+    .container-list div:first-child{
+        margin-bottom: 15px;
+    }
+
+    .container-list div:nth-child(2){
+        margin-bottom: 15px;
+    }
+
+    .container-list div:nth-child(3){
+        margin-bottom: 15px;
+    }
+
+    .container h2{
+        font-size: 25px;
+    }
+
+    .content{
+        display: block;
+    }
+
+    .content1 img{
+        width: 250px;
+        height: 50vh;
+    }
+
+    .content1{
+        width: 250px;
+    }
+    .content1 h2{
+        font-size: 30px;
+    }
+
+    .bg2{
+        width: 200px;
+    }
+
+    .bg-content2 p{
+        padding: 20px 10px;
+    }
+
+    .trend-Hd{
+        display: block;
+    }
+
+    .trend-Hd h2{
+        font-size: 40px;
+    }
+    
+    #Hd1{
+        display: none;
+    }
+    #Hd2{
+        display: block;
+        margin-top: 40px;
+    }
+
+    .trend{
+        display: block;
+    }
+
+    .trend img{
+        width: 200px;
+    }
+
+    .trend2 div:first-child{
+        margin-bottom: 20px;
+    }
+
+    .trend1 div:first-child{
+        margin-bottom: 20px;
+    }
+
+    .trend3 div:first-child{
+        margin-bottom: 20px;
+    }
+
+    .health-list{
+        display: block;
+    }
+
+    .health-list img{
+        width: 60px;
+        height: 30vh;
+    }
+
+    .health-list div:first-child{
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 15px;
+    }
+
+    .health-list div:nth-child(2){
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 15px;
+    }
+
+    .health-list div:nth-child(3){
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 15px;
+    }
+
+    .health-list div:last-child{
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 15px;
+    }
+
+    .sport-sec{
+        display: block;
+    }
+
+    .sport1 img{
+        width: 100%;
+    }
+
+    .sport3 img{
+        width: 100%;
+    }
+
+    .footer1{
+        display: block;
+    }
+
+    .footer3{
+        display: block;
+    }
+
+    .footer3 div{
+        margin-bottom: 25px;
+    }
+
+    .input input{
+        width: 200px;
+    }
+
+    .input-field input{
+        width: 200px;
+    }
+
+    .icons h2{
+        font-size: 25px;
+    }
+
+    .icons-list i{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .icons-list a{
+        padding: 5px;
+    }
+}
